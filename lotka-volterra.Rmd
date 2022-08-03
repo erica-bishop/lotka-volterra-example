@@ -41,7 +41,7 @@ Solving the Lotke-Volterra equation:
 
 ```{r}
 # Create a sequence of times (days): 
-time <- seq(0, 25, by = 0.05)
+time <- seq(0, 25, by = 2)
 
 # Set some parameter values (these can change - keep it in mind):
 parameters <- c(alpha = .75, beta = 0.8, delta = 0.5, gamma = 1)
